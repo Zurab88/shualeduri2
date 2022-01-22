@@ -282,3 +282,11 @@
 .fotfirstp {
     margin-right: 625px;
 }
+.clickbutton {
+    margin: 90px 520px;
+    color: #ff7600;
+}
+.btc {
+    background-color: #ff7600;
+    color: #ffffff
+}
