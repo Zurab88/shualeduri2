@@ -42,6 +42,7 @@
     grid-template-columns: 1fr, 1fr;
     grid-column-gap: 90px;
     margin-top: 20px;
+    background-color: #f7f7f7;
 }
 .cover {
     margin-top: 60px;
@@ -196,4 +197,56 @@
     padding: 2px 2px;
     width: 20px;
     height: 20px;
+}
+.footer {
+    width: 1440px;
+}
+.footdiv {
+    display: flex;
+    justify-content: space-between;
+}
+.address {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 100px;
+    padding-bottom: 120px;
+    background-color: #f7f7f7;
+}
+.address li {
+    margin-top: 65px;
+    margin-left: 50px;
+    font-size: 12px;
+    color: #111111;
+}
+.address a {
+    font-size: 11px;
+    color: #959595;
+}
+.address2 {
+    width: 30%;
+    margin-top: 65px;
+    margin-left: 110px;
+    background-color: #ffffff;
+}
+.address2 h6 {
+    font-size: 12px;
+    color: #111111;
+    margin-bottom: 60px;
+}
+.address2 p {
+    width: 270px;
+    font-size: 14px;
+    color: #111111;
+    line-height: 1.2;
+    margin-bottom: 30px;
+}
+.mailform {
+    width: 270px;
+}
+.mail {
+    margin-right: 60px;
+    margin-bottom: 9px;
+    font-size: 11px;
+    color: #111111;
 }
