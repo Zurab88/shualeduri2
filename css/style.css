@@ -2,16 +2,17 @@
     max-width: 1440px;
 }
 .header {
-    display: flex;
+    z-index: 19;
+    display: flex ;
     justify-content: space-between;
     align-items: center;
     position: fixed;
     top: 0px;
     left: 0px;
     width: 100%;
-    background-color: black;
 }
 .logoellipsee {
+    z-index: 9;
     width: 35px;
     height: 35px;
     object-fit: contain;
@@ -41,11 +42,9 @@
     display: grid;
     grid-template-columns: 1fr, 1fr;
     grid-column-gap: 90px;
-    margin-top: 20px;
     background-color: #f7f7f7;
 }
 .cover {
-    margin-top: 60px;
     width: 1440px;
     height: 900px;
     
@@ -218,6 +217,11 @@
     margin-left: 50px;
     font-size: 12px;
     color: #111111;
+    
+}
+.borderdiv {
+    border-right: 1px solid white;
+    padding-right: 80px;
 }
 .address a {
     font-size: 11px;
@@ -249,4 +253,32 @@
     margin-bottom: 9px;
     font-size: 11px;
     color: #111111;
+}
+.fotdiv {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #f7f7f7;
+}
+.footerelips {
+    background-color: #000000;
+    border-radius: 20px;
+    margin-bottom: 35px;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 30px;
+}
+.fotdivp {
+    display: flex;
+    justify-content: space-between;
+}
+.fotdivp p {
+    margin-top: 50px;
+    width: 280px;
+    font-size: 11px;
+    color: #959595;
+    line-height: 1.6;
+    align-items: baseline;
+}
+.fotfirstp {
+    margin-right: 625px;
 }
